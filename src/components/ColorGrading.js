@@ -51,7 +51,7 @@ const ColorGrading = () => {
 
   useEffect(() => {
     setColorInput({ qty: 10, color: "" });
-    setSelectedColor(new Values("#1194ec").all(Math.round(100 / 10) * 2));
+    setSelectedColor(new Values("#c8a2c8").all(Math.round(100 / 10) * 2));
   }, []); //Voglio che avvenga solo la prima volta.
 
   return (
